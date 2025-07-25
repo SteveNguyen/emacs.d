@@ -1,0 +1,5 @@
+(setq warning-minimum-level :error)
+(setq max-lisp-eval-depth 10000)
+(setq custom-file (concat user-emacs-directory "custom.el"))
+(when (file-exists-p custom-file)
+  (load custom-file))
